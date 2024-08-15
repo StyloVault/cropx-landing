@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar, { Features } from "./components/Navbar";
 import bg from "./assets/bg.svg";
 import vector from "./assets/vector1.svg";
 import playstore from "./assets/playstore.svg";
@@ -19,7 +19,7 @@ const App = () => {
               Cultivating Knowledge, Connecting Farmers,{" "}
               <span className="text-[#005655]"> Empowering Agriculture.</span>
             </span>
-            <span className="md:text-start text-center">
+            <span className="md:text-start text-center md:pr-4">
               Our platform goes beyond conventional boundaries, providing
               real-time insights into daily product prices, facilitating
               community engagement, and offering a host of features designed for
@@ -54,6 +54,9 @@ const App = () => {
             <img className=" cursor-pointer" src={appstore} alt="" />
           </div>
         </div>
+      </div>
+      <div className="md:hidden block w-full col-span-11">
+        <Features />
       </div>
     </div>
   );
