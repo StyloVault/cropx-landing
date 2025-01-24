@@ -15,7 +15,7 @@ const Privacy = () => {
         </div>
         <div className="  w-full flex flex-col gap-[16px]">
           <span className="text-[20px] font-[600]">INTRODUCTION</span> Welcome
-          to Crop Exchange's privacy policy. Crop Exchange respects your
+          to Crop Xchange's privacy policy. Crop Xchange respects your
           privacy and is committed to protecting your personal data. This
           privacy policy will inform you as to how we look after your personal
           data when you visit our website (regardless of where you visit it
@@ -44,7 +44,7 @@ const Privacy = () => {
             <span className="text-[20px] font-[500] text-gray-600">
               PURPOSE OF THIS PRIVACY POLICY
             </span>{" "}
-            This privacy policy aims to give you information on how Crop Exchange collects and processes your personal data through your use
+            This privacy policy aims to give you information on how Crop Xchange collects and processes your personal data through your use
             of this website, including any data you may provide through this
             website when you sign up to use our service, sign up for our
             newsletter and email update, or purchase a product or service using
@@ -64,8 +64,8 @@ const Privacy = () => {
             <span className="text-[20px] font-[500] text-gray-600">
               CONTROLLER
             </span>{" "}
-            Crop Exchange Ltd is the controller and responsible for your
-            personal data (collectively referred to as “Crop Exchange”,
+            Crop Xchange Africa is the controller and responsible for your
+            personal data (collectively referred to as “Crop Xchange”,
             “we”, “us” or “our” in this privacy policy).
             <br />
             We have appointed a data privacy manager who is responsible for
@@ -82,7 +82,7 @@ const Privacy = () => {
           We may collect the following types of information from you: f you have
           any questions about this privacy policy or our privacy practices,
           please contact our data privacy manager in the following ways: Email
-          address: hello@cropexchange.cards
+          address: hello@cropXchange.cards
           <br />
           Telephone number: +234 707 807 0141
           <br />
@@ -543,12 +543,12 @@ const Privacy = () => {
         </span>{" "}
         To resolve any complaint or clarification regarding the use of this
         Platform or its services or receive information concerning that, please
-        contact us at hello@cropexchange.cards <br /> Full name of legal entity: Crop Exchange
-         LTD
+        contact us at hello@cropXchange.cards <br /> Full name of legal entity: Crop Xchange
+         Africa
         <br />
         <div className="flex flex-col">
           <span className=" underline text-blue-800">
-            Email address: hello@cropexchange.cards
+            Email address: hello@cropXchange.cards
           </span>
           <span> Postal address: 38 Amino Kano crescent, Abuja, Nigeria.</span>
           <span>Telephone number: (+234) 907 599 2864</span>
