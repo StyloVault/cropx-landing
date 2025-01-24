@@ -12,7 +12,7 @@ const Home = () => {
     <div className="w-full min-h-screen grid grid-cols-11 ">
       <div className="md:col-span-6 col-span-11 flex flex-col relative justify-center overflow-hidden sm:px-[64px] px-[16px] py-[80px] ">
         <img className="absolute left-0 top-[80px]" src={vector} alt="" />
-        <div className="flex flex-col gap-[200px] sm:mt-[190px] mt-[80px]">
+        <div className="flex flex-col sm:gap-[40px] gap-[200px] sm:mt-[40px] mt-[80px]">
           <div className="flex flex-col md:items-start items-center gap-[49px]">
             <span className="md:text-[48px] sm:text-[36px] text-[32px] text-[#000000] md:text-start text-center font-[500] max-w-[682px]">
               Cultivating Knowledge, Connecting Farmers,{" "}
@@ -25,7 +25,7 @@ const Home = () => {
               the modern farmer.
             </span>
           </div>
-          <div className="md:flex hidden  items-center gap-[20px]">
+          <div className="md:flex hidden items-center gap-[20px]">
             <img className=" cursor-pointer" src={playstore} alt="" />
             <img className=" cursor-pointer" src={appstore} alt="" />
           </div>
@@ -37,10 +37,10 @@ const Home = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="col-span-5 md:min-h-[1124px] py-[60px]  items-center justify-center relative h-full md:flex hidden px-[16px]"
+        className="col-span-5  py-[60px]  items-center justify-center relative h-full md:flex hidden px-[16px]"
       >
-        <div className="flex flex-col items-center md:absolute static h-[756px] md:left-[-120px] md:top-[260px]">
-          <img className=" h-[661px] w-fit " src={device} alt="" />
+        <div className="flex flex-col items-center justify-center md:absolute static min-h-[456px] bottom-0 md:left-[-120px] ">
+          <img className=" h-[500px] w-fit " src={device} alt="" />
           <img src={shadow} className="h-fit" alt="" />
         </div>
       </div>
