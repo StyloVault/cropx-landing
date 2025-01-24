@@ -61,12 +61,12 @@ const Navbar = () => {
   return (
     <div className="w-full min-h-[80px]  z-[999] flex items-center sm:px-[64px] px-[16px] absolute top-0 left-0 right-0">
       <div className="relative w-full  md:grid flex grid-cols-11 h-full items-center justify-between">
-        <div className="col-span-6 flex items-center justify-between w-full max-w-[685px] gap-[30px]">
+        <div className="col-span-6 flex  justify-between w-full max-w-[685px] gap-[30px]">
           <img
             onClick={() => navigate("/")}
             src={logo}
             alt=""
-            className="cursor-pointer"
+            className="cursor-pointer h-[35px] mb-[14px] "
           />
           <div className="sm:flex hidden  gap-[16px] justify-between w-full">
             <div className="flex features items-center relative gap-[4px] text-[#005655] text-[16px] font-[600] cursor-pointer">
