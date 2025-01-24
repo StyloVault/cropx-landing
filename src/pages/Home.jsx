@@ -14,7 +14,7 @@ const Home = () => {
         <img className="absolute left-0 top-[80px]" src={vector} alt="" />
         <div className="flex flex-col sm:gap-[40px] gap-[200px] sm:mt-[40px] mt-[80px]">
           <div className="flex flex-col md:items-start items-center gap-[49px]">
-            <span className="md:text-[48px] sm:text-[36px] text-[32px] text-[#000000] md:text-start text-center font-[500] max-w-[682px]">
+            <span className="xl:text-[48px]  md:text-[36px] text-[32px] text-[#000000] md:text-start text-center font-[500] max-w-[682px]">
               Cultivating Knowledge, Connecting Farmers,{" "}
               <span className="text-[#005655]"> Empowering Agriculture.</span>
             </span>
