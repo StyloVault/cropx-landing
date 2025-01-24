@@ -4,6 +4,7 @@ import { HiMiniChevronDown } from "react-icons/hi2";
 import vector1 from "../assets/flower.svg";
 import vector2 from "../assets/flower2.svg";
 import "./nav.scss";
+import { useNavigate } from "react-router-dom";
 
 const features = [
   {
@@ -56,11 +57,17 @@ const features2 = [
 ];
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div className="w-full min-h-[80px]  z-[999] flex items-center sm:px-[64px] px-[16px] absolute top-0 left-0 right-0">
       <div className="relative w-full  md:grid flex grid-cols-11 h-full items-center justify-between">
         <div className="col-span-6 flex items-center justify-between w-full max-w-[685px] gap-[30px]">
-          <img src={logo} alt="" />
+          <img
+            onClick={() => navigate("/")}
+            src={logo}
+            alt=""
+            className="cursor-pointer"
+          />
           <div className="sm:flex hidden  gap-[16px] justify-between w-full">
             <div className="flex features items-center relative gap-[4px] text-[#005655] text-[16px] font-[600] cursor-pointer">
               Features <HiMiniChevronDown />
@@ -68,8 +75,11 @@ const Navbar = () => {
                 <Features />
               </div>
             </div>
-            <span className="flex items-center gap-[4px] text-[#005655] text-[16px] font-[600] cursor-pointer">
-              About <HiMiniChevronDown />
+            <span
+              onClick={() => navigate("/privacy")}
+              className="flex items-center gap-[4px] text-[#005655] text-[16px] font-[600] cursor-pointer"
+            >
+              Privacy <HiMiniChevronDown />
             </span>
             <span className="flex items-center gap-[4px] text-[#005655] text-[16px] font-[600] cursor-pointer">
               Contact <HiMiniChevronDown />
