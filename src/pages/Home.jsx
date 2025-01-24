@@ -39,9 +39,9 @@ const Home = () => {
         }}
         className="col-span-5  py-[60px]  items-center justify-center relative h-full md:flex hidden px-[16px]"
       >
-        <div className="flex flex-col items-center justify-center md:absolute static min-h-[456px] bottom-0 md:left-[-120px] ">
-          <img className=" h-[500px] w-fit " src={device} alt="" />
-          <img src={shadow} className="h-fit" alt="" />
+        <div className="flex flex-col items-start  justify-center w-full  ">
+          <img className=" max-h-[700px]  h-full w-fit " src={device} alt="" />
+          <img src={shadow} className="h-fit absolute bottom-0" alt="" />
         </div>
       </div>
       <div className="md:col-span-5 col-span-11 sm:min-h-[1124px] h-fit pb-[120px]  items-center px-[16px] justify-center relative md:h-full md:hidden flex">
